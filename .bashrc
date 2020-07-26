@@ -1,0 +1,8 @@
+alias l='tree -L 1'
+alias ll='tree -L 2'
+alias lll='ls -l'
+alias d='cd ~/Desktop'
+alias src='source ~/.bashrc'
+alias rc='nano ~/.bashrc'
+alias cat='lolcat'
+alias ccat='clear; lolcat'
