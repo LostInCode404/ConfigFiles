@@ -7,7 +7,15 @@
             "modules": true
         }
     },
+    "env": {
+        "browser": true,
+        "commonjs": true
+    },
     "rules": {
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
         "semi": "error",
         "indent": [
             "error",
