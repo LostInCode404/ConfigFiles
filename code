@@ -1,0 +1,24 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontFamily": "'JetBrains Mono'",
+  "window.zoomLevel": 0,
+  "editor.fontWeight": "500",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 24,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 2,
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontWeight": "900",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "workbench.colorCustomizations": {
+    "sideBar.foreground": "#eee",
+    "gitDecoration.modifiedResourceForeground": "#7cf"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  }
+}
