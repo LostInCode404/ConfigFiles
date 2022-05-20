@@ -1,23 +1,48 @@
 {
-  "window.menuBarVisibility": "toggle",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-  "editor.find.addExtraSpaceOnTop": false,
-  "editor.fontFamily": "JetBrains Mono",
-  "window.zoomLevel": 0,
-  "editor.fontWeight": "500",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 24,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorWidth": 2,
-  "editor.formatOnSave": false,
-  "terminal.integrated.fontWeight": "900",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "workbench.colorCustomizations": {
-    "sideBar.foreground": "#eee",
-    "gitDecoration.modifiedResourceForeground": "#7cf"
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    "explorer.decorations.colors": false,
+    "explorer.decorations.badges": false,
+    "terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.menuBarVisibility": "toggle",
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorWidth": 2,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontWeight": "900",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "workbench.colorCustomizations": {
+        "sideBar.foreground": "#eee",
+        "gitDecoration.modifiedResourceForeground": "#7cf"
+    },
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true,
+    // },
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#fdd835",
+    "eslint.validate": [
+        "javascript"
+    ],
+    "tslint.autoFixOnSave": true,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.restoreWindows": "none",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
+    "[css]": {
+        "editor.formatOnSave": false
+    },
+    "window.zoomLevel": 1
 }
