@@ -1,36 +1,67 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontWeight": "bold",
     "editor.fontSize": 14,
-    "editor.lineHeight": 24,
+    "editor.lineHeight": 22,
     "editor.fontLigatures": true,
     "explorer.decorations.colors": false,
     "explorer.decorations.badges": false,
-    "terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "security.workspace.trust.untrustedFiles": "open",
     "window.menuBarVisibility": "toggle",
     "editor.find.addExtraSpaceOnTop": false,
     "editor.cursorBlinking": "smooth",
     "editor.cursorWidth": 2,
     "editor.formatOnSave": true,
+    "[hbs]": {
+        "editor.formatOnSave": false
+    },
+    "[css]": {
+        "editor.formatOnSave": false
+    },
     "terminal.integrated.fontWeight": "900",
-    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Debian (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Debian"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
     "workbench.colorCustomizations": {
         "sideBar.foreground": "#eee",
-        "gitDecoration.modifiedResourceForeground": "#7cf"
+        "gitDecoration.modifiedResourceForeground": "#7cf",
+        // "terminal.background": "#111a20",
+        // "panel.background": "#111a20"
+        "terminal.background": "#1d1d1d",
+        "panel.background": "#1d1d1d"
     },
-    // "editor.codeActionsOnSave": {
-    //     "source.fixAll.eslint": true,
-    // },
-    "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.folders.color": "#fdd835",
     "eslint.validate": [
         "javascript"
     ],
     "tslint.autoFixOnSave": true,
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
@@ -38,11 +69,15 @@
         "**/.factorypath": true
     },
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.restoreWindows": "none",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
-    "[css]": {
-        "editor.formatOnSave": false
+    "window.zoomLevel": 2,
+    "[python]": {
+        "editor.defaultFormatter": "eeyore.yapf"
     },
-    "window.zoomLevel": 1
+    "yapf.args": [
+        "--style",
+        "{based_on_style: pep8, blank_lines_around_top_level_definition: 1, indent_width: 4, column_limit: 150}"
+    ],
+    "markdown-preview-github-styles.colorTheme": "light"
 }
